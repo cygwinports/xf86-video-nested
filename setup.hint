@@ -1,0 +1,6 @@
+category: X11
+requires: libX11_6 libXext6 xorg-server
+sdesc: "Nested video driver for Xorg X11 server"
+ldesc: "Nested video driver for Xorg X11 server. This can be used with the
+Xorg server in place of the Xnest and Xephyr servers."
+
