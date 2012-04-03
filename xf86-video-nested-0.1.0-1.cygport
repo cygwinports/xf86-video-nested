@@ -1,6 +1,6 @@
 inherit xorg git
 
-PATCH_URI="0.1.0-no-undefined"
+PATCH_URI="0.1.0-no-undefined.patch"
 
 DEPS_PATH="/usr/lib/xorg/modules"
 
