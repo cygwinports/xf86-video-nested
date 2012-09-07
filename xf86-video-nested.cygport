@@ -1,0 +1,13 @@
+inherit xorg git
+
+NAME="xf86-video-nested"
+VERSION=0.1.0
+RELEASE=2
+CATEGORY="X11"
+SUMMARY="Nested video driver for Xorg X11 server"
+DESCRIPTION="Nested video driver for Xorg X11 server. This can be used with the
+Xorg server in place of the Xnest and Xephyr servers."
+
+DEPS_PATH="/usr/lib/xorg/modules"
+
+KEEP_LA_FILES="none"
